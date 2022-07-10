@@ -12,13 +12,27 @@
 | Euro Member Countries | EUR  -  € |
 | Georgian lari | GEL  -  ₾ |
 
-## Instruction
 
- - Make new repo (folder);
-- Git clone "SSH" (in repo(folder));
- - Open repository with phpstorm or vscode;
- - Open terminal;
- - Write: php -S localhost:8085 ;
+## Running Tests
+
+To run tests, run the following command
+
+```bash
+  Make a new repo (folder);
+```
+```bash
+  Git clone "SSH" (in your repo(folder));
+```
+```bash
+  Open repository with phpstorm or vscode;
+```
+```bash
+  Open terminal;
+```
+```bash
+  Write: php -S localhost:8085 ;
+```
+
 
  ### Good Luck
 
