@@ -46,10 +46,10 @@
 
                         if ($err) {
                             echo "cURL Error #:" . $err;
-                        } else {
-                            echo "<h1  style='color:#bf2aee'> {$response} </h1><br>";
-                            echo "<p><h1 style='color:#cf5fff' > {$result} </h1></p><br>";
-                        }
+                        } else {?>
+                            <h2  style='color:#bf2aee'>Amount -  <?= floor($response * 100)/100 ?> </h2><br>;
+                            <p><h2 style='color:#cf5fff' >Cash - <?= floor($result * 100)/100 ?> </h2></p><br>;
+                        <?php }
                     }
                 ?>
             </div>
